@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee&display=swap');
+.h1
+{
+  font-family: 'ABeeZee', sans-serif;
+  color: white;
+}
+.jum
+{
+  background-color:rgb(6, 23, 70);
+}
+#git{
+  text-align: center;
+}
+.bt{
+color: white;
+font-size: 20px;
+}
+#but{
+ text-align: center;
+}
+.but{
+  margin-top: 100px;
+}
+.icon{
+  margin-top:100px;
+}
+#but button a{
+text-decoration: none;
+color: white;
+
+}
