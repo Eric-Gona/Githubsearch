@@ -3,16 +3,17 @@
 {
   font-family: 'ABeeZee', sans-serif;
   color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: x-large;
 }
 .jum
 {
-  background-color:rgb(6, 23, 70);
+  background-color:darkred;
 }
-#git{
-  text-align: center;
-}
+
 .bt{
-color: white;
+color:green;
 font-size: 20px;
 }
 #but{
@@ -21,11 +22,9 @@ font-size: 20px;
 .but{
   margin-top: 100px;
 }
-.icon{
-  margin-top:100px;
-}
-#but button a{
-text-decoration: none;
-color: white;
 
+#but button a{
+border-radius: 15px;
+background-color: green;
+padding: 16px;
 }
