@@ -11,7 +11,7 @@ export class UserSService {
   constructor(private http: HttpClient) {
 console.log(' service is ready ');
 // tslint:disable-next-line: no-unused-expression
-this.username = 'BRIANCHERUIYOT';
+this.username = 'ERICGONA';
    }
    getProfile() {
       // tslint:disable-next-line: max-line-length

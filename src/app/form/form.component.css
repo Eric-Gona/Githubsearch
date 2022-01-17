@@ -1,11 +1,16 @@
-.bttn{
-    margin-top: 50px;
+
+  button{
+    background-color: green;
+    border-radius: 15px;
+    padding: 16px;
   }
-  
-  .bttn #bsearch button a{
-    color: white;
-    text-decoration: none;
+
+  label{
+    color: navy;
+    font-size: x-large;
   }
-  .mt-3{
-    border:1px solid gray;
-  }
+ .form-group{
+   border-radius: 15px;
+   padding: 15px;
+ }
+ 

@@ -3,8 +3,8 @@
       <div class="col-lg-12 col-md-12 col-sm-12">
           <form class="f_design text-center bg-primary p-5 mt-5">
               <div class="form-group ">
-                <label for="exampleInputEmail1">ENTER USERNAME</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username" [(ngModel)]="username" name="username" (keyup)="findAccount()">
+                <label for="Inputname">ENTER GITHUB USERNAME</label>
+                <input type="text" class="form-control" id="Inputname" aria-describedby="" placeholder="Username" [(ngModel)]="username" name="username" (keyup)="findAccount()">
               </div>
             </form>
       </div>
@@ -13,11 +13,7 @@
       <button type="button" class="btn btn-warning  btn-lg " ><a routerLink=''></a></button>
        </div>
   </div>
-  <p>
-  
-  <!-- followers:{{profile.followers}} -->
-  </p>
-  
+ 
     </div>
   
     <div class="row mt-5" *ngIf='profile'>
@@ -32,6 +28,7 @@
                 </div>
   
               <div class="card-body">
+                <h1>Profile</h1>
                 <label>Name</label>:&nbsp;<small>{{profile.login}}</small>
               </div>
             </div>
@@ -83,7 +80,7 @@
   
       <div class="col-lg-5 col-md-6 col-sm-6 bg-info">
           <div class="card mt-3">
-              <div class="card-header text-center"><strong>  Repositories</strong>
+              <div class="card-header text-center"><strong> <h1> Repositories</h1></strong>
               </div>
               <ul class="list-group list-group-flush" *ngFor="let repo of repos">
                 <p class="card-body"><strong>{{repo.name}}</strong><br>
