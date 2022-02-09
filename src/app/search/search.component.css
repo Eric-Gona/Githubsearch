@@ -1,26 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=ABeeZee&display=swap');
 .h1
 {
-  font-family: 'ABeeZee', sans-serif;
+  font-family:sans-serif;
   color: white;
   padding: 20px;
   text-align: center;
-  font-size: x-large;
+  font-size: xx-large;
 }
-.jum
+.search
 {
   background-color:darkred;
+  padding: 20px 10px;
 }
 
-.bt{
-color:green;
-font-size: 20px;
-}
+
 #but{
  text-align: center;
-}
-.but{
-  margin-top: 100px;
 }
 
 #but button a{
